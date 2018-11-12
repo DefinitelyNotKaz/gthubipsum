@@ -4,7 +4,7 @@ A VSCode extension that puts GTHub quotes as Lorem ipsum into your editor.
 
 *For those that don't know what GTHub is, its a discord community about racing  cars, GT3, LMP1, F1... doesnt matter! \O/*
 
-[GTHub]('https://GTHub.eu')
+![GTHub]('https://GTHub.eu')
 
 ## Usage
 
@@ -18,5 +18,5 @@ Custom paragraph length, multiple paragraphs...
 
 ### Changelog
 
-##### 0.1
+##### 0.5
   * Initial version.
