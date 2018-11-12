@@ -1,0 +1,46 @@
+{
+    "name": "gthubsum",
+    "displayName": "gthubsum",
+    "description": "Inserts GTHub Lorem Ipsum into the editor.",
+    "version": "0.0.5",
+    "publisher": "KazuoCode",
+    "engines": {
+        "vscode": "^1.0.0"
+    },
+    "bugs": {
+        "url": "https://github.com/KazuoCode/gthubipsum/issues"
+    },
+    "scripts": {
+        "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+        "compile": "node ./node_modules/vscode/bin/compile -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install"
+    },
+    "homepage": "https://github.com/KazuoCode/gthubipsum",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/KazuoCode/gthubipsum"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.gthubsum"
+    ],
+    "main": "./out/src/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.gthubsum",
+                "title": "gthubsum"
+            }
+        ]
+    },
+    "devDependencies": {
+        "typescript": "^1.8.5"
+    },
+    "dependencies": {
+        "cheerio": "^0.20.0",
+        "html-to-text": "^2.1.3",
+        "vscode": "^0.11.0"
+    }
+}
