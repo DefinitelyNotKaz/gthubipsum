@@ -18,5 +18,5 @@ Custom paragraph length, multiple paragraphs...
 
 ### Changelog
 
-##### 0.1
+##### 0.5
   * Initial version.
